@@ -3,7 +3,7 @@
 Source: https://github.com/sherlock-audit/2023-02-surge-judging/issues/125 
 
 ## Found by 
-Breeje, Ace-30, usmannk, \_\_141345\_\_, TrungOre, cccz, ctf\_sec, gandu, rvi, Bobface, chainNue, bin2chen, RaymondFam, Cryptor, Juntao, carrot, peanuts, ak1, saian, Chinmay, banditx0x, CRYP70, ABA, 0xc0ffEE, chaduke, 0Kage, ck, sinh3ck, MalfurionWhitehat, 0xAsen, 0xhacksmithh, bytes032, GimelSec, gryphon, unforgiven, 0x52, bshramin, SunSec, dingo, VAD37
+0Kage, ck, usmannk, Ace-30, CRYP70, ak1, 0x52, chaduke, chainNue, dingo, rvi, ctf\_sec, carrot, unforgiven, y1cunhui, Chinmay, gryphon, GimelSec, peanuts, Bobface, gandu, Juntao, TrungOre, MalfurionWhitehat, cccz, Cryptor, VAD37, \_\_141345\_\_, 0xAsen, Breeje, 0xhacksmithh, RaymondFam, bin2chen, 0xc0ffEE, bytes032, SunSec, banditx0x
 
 ## Summary
 
@@ -42,7 +42,7 @@ GG. We left this one intentionally. Glad to see this many duplicates.
 Source: https://github.com/sherlock-audit/2023-02-surge-judging/issues/122 
 
 ## Found by 
-gogo, GimelSec, 0x52, usmannk, \_\_141345\_\_, Bauer, bin2chen, TrungOre, ctf\_sec, peanuts
+GimelSec, joestakey, peanuts, usmannk, bin2chen, ast3ros, 0x52, Bauer, TrungOre, gogo, ctf\_sec, \_\_141345\_\_
 
 ## Summary
 
@@ -83,7 +83,7 @@ userCollateralRatioMantissa should be calculated using debt and collateral value
 Source: https://github.com/sherlock-audit/2023-02-surge-judging/issues/225 
 
 ## Found by 
-unforgiven, Tricko, joestakey, Deivitto, TrungOre
+joestakey, Ace-30, Tricko, TrungOre, Deivitto, unforgiven
 
 ## Summary
 function `getCurrentState()` Gets the current state of pool variables based on the current time and other functions use it to update the contract state. it calculates interest accrued for debt from the last timestamp but because of the division error in some cases the calculated interest would be 0 and it would cause borrowers to pay no interest.
@@ -190,7 +190,7 @@ Only use allowance when spender != from:
 Source: https://github.com/sherlock-audit/2023-02-surge-judging/issues/154 
 
 ## Found by 
-Delvir0, RaymondFam, Cryptor, dipp, menox, kiki\_dev, wzrdk3lly, ahmedovv, weeeh\_, Tricko, ABA, Respx, Tomo, MalfurionWhitehat, 0xhacksmithh, bytes032, Kaiziron, Dug, Handle, ast3ros, 0xnuel
+Handle, weeeh\_, kiki\_dev, ast3ros, Delvir0, Tricko, Tomo, menox, MalfurionWhitehat, Respx, Kaiziron, Dug, dipp, ABA, Cryptor, 0xnuel, wzrdk3lly, 0xhacksmithh, RaymondFam, bytes032, ahmedovv
 
 ## Summary
 
@@ -282,7 +282,7 @@ When calculating utilization, only use the most recently cached values of token 
 Source: https://github.com/sherlock-audit/2023-02-surge-judging/issues/124 
 
 ## Found by 
-favelanky, slvDev, gogo, GimelSec, 0xAgro, 0x52, BTK, Dug, SovaSlava, Aymen0909, bin2chen, ast3ros, ctf\_sec
+GimelSec, Dug, Aymen0909, bin2chen, slvDev, ast3ros, 0x52, BTK, 0xAgro, SovaSlava, favelanky, gogo, ctf\_sec
 
 ## Summary
 
@@ -319,7 +319,7 @@ Implement a check similar to the one in setFeeMantissa that doesn't allow a nonz
 Source: https://github.com/sherlock-audit/2023-02-surge-judging/issues/113 
 
 ## Found by 
-GimelSec, 0x52, cccz, KingNFT
+y1cunhui, GimelSec, KingNFT, 0x52, cccz
 
 ## Summary
 
